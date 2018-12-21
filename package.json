@@ -1,0 +1,38 @@
+{
+  "name": "yyt-server",
+  "version": "0.1.0",
+  "description": "yyt e2e test server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yyts": "bin/init.js"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackness1208/yyt-server.git"
+  },
+  "keywords": [
+    "yyt",
+    "server"
+  ],
+  "author": "jackness",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackness1208/yyt-server/issues"
+  },
+  "homepage": "https://github.com/jackness1208/yyt-server#readme",
+  "dependencies": {
+    "element-ui": "^2.4.11",
+    "koa": "^2.6.2",
+    "mongodb": "^3.1.10",
+    "yyl-fs": "^0.1.1",
+    "yyl-os": "^0.1.0",
+    "yyl-print": "^0.2.0",
+    "yyl-util": "^1.14.4"
+  }
+}
