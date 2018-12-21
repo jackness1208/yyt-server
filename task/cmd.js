@@ -1,8 +1,9 @@
 const pkg = require('../package.json');
 const util = require('yyl-util');
 const print = require('yyl-print');
-const extOs = require('yyl-os');
 const chalk = require('chalk');
+
+const app = require('../server/app.js');
 
 // const PROJECT_PATH = process.cwd();
 
@@ -34,7 +35,7 @@ const cmd = {
     return pkg.version;
   },
   async start(iEnv) {
-    //..
+    return await app.start(iEnv);
   }
 };
 
