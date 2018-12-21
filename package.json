@@ -30,9 +30,11 @@
     "chalk": "^2.4.1",
     "db-migrate": "^0.11.4",
     "koa": "^2.6.2",
+    "koa-static": "^5.0.0",
     "yyl-fs": "^0.1.1",
     "yyl-os": "^0.2.0",
     "yyl-print": "^0.2.0",
+    "yyl-seed-webpack-vue2": "^0.3.9",
     "yyl-util": "^1.15.0"
   }
 }

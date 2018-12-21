@@ -3,6 +3,7 @@ const util = require('yyl-util');
 const extOs = require('yyl-os');
 const print = require('yyl-print');
 const chalk = require('chalk');
+const seed = require('yyl-seed-webpack-vue2');
 
 const cache = {
   server: null
