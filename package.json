@@ -31,6 +31,7 @@
     "db-migrate": "^0.11.4",
     "koa": "^2.6.2",
     "koa-static": "^5.0.0",
+    "yyl-flexlayout": "^1.5.0",
     "yyl-fs": "^0.1.1",
     "yyl-os": "^0.2.0",
     "yyl-print": "^0.2.0",
